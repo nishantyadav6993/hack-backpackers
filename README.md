@@ -14,5 +14,7 @@ When the application is first built, it will create a database file in the direc
 
 ### Curl Tests
 
+```
 POST: curl -X POST -d @sample.json -H "Content-Type: application/json" http://localhost:8090/saveDetails
 GET:  curl -i -H "Accept: application/json" -H "key:PRODUCT" http://localhost:8090/getsummary
+```
